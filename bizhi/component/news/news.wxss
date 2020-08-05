@@ -1,0 +1,13 @@
+
+.photo-box{
+  padding: 40rpx 2%;
+  box-sizing: border-box;
+}
+.photo-box .photo2{
+  width: 100%;
+  margin-top:20rpx; 
+}
+.photo-box .photo3{
+  width: 100%;
+  border-radius: 12rpx;
+}

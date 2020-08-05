@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "show":"../../component/show/show"
+  }
+}

@@ -1,0 +1,10 @@
+/* pages/Type/Type.wxss */
+.title{
+  width: 100%;
+  padding: 20rpx 0;
+  text-indent: 5%;
+  margin: 10rpx 0;
+  font-size: 40rpx;
+  border-bottom:1rpx solid #ccc; 
+  border-top:1rpx solid #ccc; 
+}

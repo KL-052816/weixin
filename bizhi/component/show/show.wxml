@@ -1,0 +1,6 @@
+<!--component/show/show.wxml-->
+<view class="photo-box">
+  <view class="photo-body">
+    <image class="photo1" bindtap="jump" data-all="{{item}}" wx:for="{{lists}}" mode="widthFix" wx:key="index" src="{{item.preview}}" />
+  </view>
+</view>

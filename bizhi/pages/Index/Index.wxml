@@ -1,0 +1,49 @@
+<!--pages/Index/Index.wxml-->
+<view>
+  <view class="head">
+    <swiper indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
+         <block wx:for="{{lists}}" wx:key="index">  
+           <swiper-item class="swiper-item">  
+              <navigator url="" hover-class="navigator-hover" class="navigator">  
+               <image src="{{item.url}}" model="widthFix" class="slide-image"/>  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+    </swiper> 
+    <view class="header">
+      <view  class="header-box">
+        <view class="header-pho">
+           <image class="header-photo" src="../../resource/images/nva.jpg"/>
+        </view>
+        <text class="header-text">全部</text>
+      </view>
+      <view  class="header-box" bindtap="new">
+        <view class="header-pho">
+           <image class="header-photo" src="../../resource/images/nva.jpg"/>
+        </view>
+        <text class="header-text" >最新</text>
+      </view>
+      <view  class="header-box" bindtap="search">
+        <view class="header-pho">
+           <image class="header-photo" src="../../resource/images/nva.jpg"/>
+        </view>
+        <text class="header-text" >搜索</text>
+      </view>
+      <view class="header-box" bindtap="type">
+        <view class="header-pho">
+           <image class="header-photo" src="../../resource/images/nva.jpg"/>
+        </view>
+        <text class="header-text">更多</text>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="body">
+     <view class="body-list">
+        <text>222222</text>
+        <text>1111</text>
+        <view wx:for="{{less}}" wx:key="index">{{item.name}}</view>
+     </view>
+  </view> -->
+  <show nums="{{num}}" />
+</view>

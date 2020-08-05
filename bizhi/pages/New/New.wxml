@@ -1,0 +1,4 @@
+<view class="new">
+<!-- <view class="title">最新电脑壁纸</view> -->
+  <news cont="{{conts}}"/>
+</view>

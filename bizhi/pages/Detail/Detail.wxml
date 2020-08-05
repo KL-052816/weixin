@@ -1,0 +1,14 @@
+<!--pages/Detail/Detail.wxml-->
+<view>
+  <view class="photo-fa">
+    <image  class="photo" mode="widthFix" src="{{url}}"></image>
+  </view>
+  <view class="txt">
+    <text class="text-fr">标签:</text>
+    <text class="photo-tag" wx:for="{{tag}}" wx:key="index">{{item}}</text>
+  </view>
+  <view class="foot">
+    <text class="foot-title">相关推荐</text>
+    <image class="photo" bindtap="jump1" data-all="{{item}}" wx:for="{{lists}}" mode="widthFix" wx:key="index" src="{{item.url}}"></image>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+/* pages/New/New.wxss */
+.new{
+  padding: 0 2%;
+  overflow: hidden;
+}
+.title{
+  padding: 20rpx 0;
+  font-weight: 600;
+  border-radius: 2%;
+  text-align: center;
+  background-color: #F1ECF0;
+}

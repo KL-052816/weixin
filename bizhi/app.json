@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/Index/Index",
+    "pages/New/New",
+    "pages/Search/Search",
+    "pages/Detail/Detail",
+    "pages/Type/Type",
+    "pages/Photo/Photo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "壁纸",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":50
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

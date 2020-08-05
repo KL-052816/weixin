@@ -1,0 +1,6 @@
+<!--pages/Type/Type.wxml-->
+<view>
+  <view>
+    <view class="title" wx:for="{{lists}}" wx:key="index" bindtap="jump" data-id="{{item.id}}" data-name="{{item.name}}">{{item.name}}</view>
+  </view>
+</view>

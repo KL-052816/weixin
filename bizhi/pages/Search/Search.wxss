@@ -1,0 +1,56 @@
+.heade{
+  width: 100%;
+  padding: 10rpx 2%;
+}
+.heade .ipt{
+  width: 75%;
+  height: 80rpx;
+  float: left;
+  margin-left: 2%;
+  border-radius:8rpx; 
+  border: 1rpx solid #ccc;
+}
+.heade .ipt::-webkit-input-placeholder {
+    color: red;
+    font-size: 24rpx;
+}
+.heade .button{
+  width: 15%;
+  float: right;
+  height: 80rpx;
+  margin-right: 4%;
+  text-align: center;
+  color: thistle;
+  line-height: 80rpx;
+  border-radius:8rpx; 
+  border: 1rpx solid #ccc;
+}
+.tits{
+  width: 100%;
+  padding: 10rpx 2%;
+  margin-top: 20rpx;
+  overflow: hidden;
+}
+.tits .tits-list{
+  width: 20%;
+  height: 40rpx;
+  border: 1rpx solid #ccc;
+  text-align: center;
+  line-height: 40rpx;
+  float: left;
+  margin-left: 2%;
+  margin-top: 7rpx;
+  font-size: 24rpx;
+  border-radius: 8rpx;
+}
+.body{
+  margin-top: 20rpx;
+}
+.photo-body{
+  padding: 20rpx 2%;
+}
+.photo-body .photo1{
+  width: 100%;
+  border-radius: 12rpx;
+  margin-top: 10rpx;
+}

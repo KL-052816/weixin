@@ -1,0 +1,9 @@
+/* pages/Photo/Photo.wxss */
+.box{
+  padding: 10rpx 2%;
+  }
+.img{
+  width: 100%;
+  border-radius: 16rpx;
+  margin-top:10rpx; 
+}

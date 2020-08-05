@@ -1,0 +1,7 @@
+<!--component/news/news.wxml-->
+<view class="photo-box">
+    <view wx:for="{{lists}}" bindtap="jump" data-all="{{item}}" wx:key="index" class="photo2">
+      <image class="photo3" mode="widthFix"  src="{{item.url_mid}}" />
+    </view>
+</view>
+

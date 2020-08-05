@@ -1,0 +1,15 @@
+<view>
+  <view class="heade">
+    <input  class="ipt" placeholder="输入你想要查看的内容" model:value="{{value1}}"></input>
+    <view class="button" bindtap="getData3">搜索</view>
+  </view>
+  <view class="tits">
+    <view class="tits-list"wx:for="{{lists}}" bindtap="getData2" data-value="{{item}}" wx:key="index">{{item}}</view>
+  </view>
+  <view class="body">
+    <view class="photo-body">
+    <image class="photo1" wx:for="{{list}}" bindtap="jump" data-all="{{item}}" mode="widthFix" wx:key="index" src="{{item.url}}" />
+    </view>
+  </view>
+</view>
+

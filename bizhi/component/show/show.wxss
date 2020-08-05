@@ -1,0 +1,11 @@
+/* component/show/show.wxss */
+.photo-body{
+  padding: 20rpx 2%;
+  /* float: left; */
+}
+.photo-body .photo1{
+  width: 45%;
+  border-radius: 12rpx;
+  margin-left: 3%;
+  margin-top: 10rpx;
+}

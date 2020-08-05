@@ -1,0 +1,26 @@
+/* pages/Detail/Detail.wxss */
+.photo-fa{
+  padding: 10rpx 2%;
+}
+.photo{
+  width: 100%;
+  margin-top: 10rpx;
+  border-radius:16rpx; 
+}
+.txt{
+  padding: 10rpx 2%;
+  border-radius:12rpx; 
+  background-color: thistle;
+}
+.photo-tag{
+  padding: 10rpx 3%;
+  margin-right:2%;
+  font-size: 26rpx; 
+}
+.foot{
+  padding: 10rpx 2%;
+  margin-top: 20rpx;
+}
+.foot-title{
+  font-weight: 600;
+}

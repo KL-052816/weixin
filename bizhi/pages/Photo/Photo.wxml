@@ -1,0 +1,4 @@
+<!--pages/Photo/Photo.wxml-->
+<view class="box">
+  <image class="img" wx:for="{{lists}}"wx:key="index" src="{{item.url}}" mode="widthFix" data-all="{{item}}"bindtap="jump"></image>
+</view>
